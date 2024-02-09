@@ -1,0 +1,13 @@
+[package]
+name = "solver"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bimap = "0.6.3"
+game = { version = "0.1.0", path = "../game" }
+derive_more = "0.99.17"
+fixedbitset = "0.4.2"
+once_cell = "1.19.0"
